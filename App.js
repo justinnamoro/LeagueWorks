@@ -8,12 +8,12 @@
 
 import React from 'react';
 import {View, StyleSheet} from "react-native";
-import Button from "../comps/Button";
+import MyButton from "../comps/button";
 
 
 const App = () => {
   return <View>
-    <Button/>
+    <MyButton/>
   </View>
 }
 
@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
   }
 })
 
-// export default App;
+export default App;
 
-export {default} from "./storybook";
+// export {default} from "./storybook";

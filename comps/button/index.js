@@ -6,6 +6,8 @@ container:{
     display:"flex",
     justifyContent:"center",
     backgroundColor:"#FD8700",
+    height:"16px",
+    width:"50px",
     padding:"10px",
     borderRadius:"5px"
 },
